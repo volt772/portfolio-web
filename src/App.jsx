@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
 import "./App.css";
+import DesktopPreview from "./DesktopPreview";
 import projects from "./projects.json";
 import { compareProjects } from "./projectSort";
-import DesktopPreview from "./DesktopPreview";
 
 // 탭 표시 순서. 프로젝트 정보와 이미지 경로는 projects.json에서 관리합니다.
 const categories = ["Mobile", "Desktop", "Backend"];
@@ -40,7 +40,8 @@ function App() {
   function onTabKey(event, index) {
     let next;
     if (event.key === "ArrowRight") next = (index + 1) % categories.length;
-    else if (event.key === "ArrowLeft") next = (index + categories.length - 1) % categories.length;
+    else if (event.key === "ArrowLeft")
+      next = (index + categories.length - 1) % categories.length;
     else if (event.key === "Home") next = 0;
     else if (event.key === "End") next = categories.length - 1;
     else return;
@@ -53,7 +54,7 @@ function App() {
       <header>
         <div>
           <h1>
-            Allen<span>.</span>
+            JHN<span>.</span>
           </h1>
           <p>Software Developer</p>
         </div>
@@ -85,7 +86,7 @@ function App() {
         </div>
         <div className="section-caption">
           <span>작은 아이디어를, 쓸모 있는 서비스로.</span>
-          <span>샘플 프로젝트</span>
+          {/*<span>샘플 프로젝트</span>*/}
         </div>
         {/* 정렬된 프로젝트를 공통 카드 형식으로 렌더링합니다. 열 개수는 App.css에서 지정합니다. */}
         <section
@@ -134,7 +135,7 @@ function App() {
         </section>
       </main>
       <footer>
-        <span>© {currentYear} Allen</span>
+        <span>© {currentYear} JeongHwaeNam</span>
         <span>꾸준히 만들고, 조금씩 개선합니다.</span>
       </footer>
     </div>
