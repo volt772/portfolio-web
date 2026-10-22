@@ -6,7 +6,7 @@
     "title": "그룹웨어",
     "description": "기업메일, 전자결재, 근태관리 등",
     "tech": ["Android", "Kotlin", "XML"],
-    "image": "/projects/joblog/cover.png"
+    "image": "/projects/groupware/cover.png"
   },
   {
     "id": "joblog",
