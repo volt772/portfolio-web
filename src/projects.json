@@ -1,5 +1,14 @@
 [
   {
+    "id": "groupware",
+    "project": "ZZZ",
+    "category": "Mobile",
+    "title": "그룹웨어",
+    "description": "기업메일, 전자결재, 근태관리 등",
+    "tech": ["Android", "Kotlin", "XML"],
+    "image": "/projects/joblog/cover.png"
+  },
+  {
     "id": "joblog",
     "project": "112",
     "category": "Mobile",
@@ -156,7 +165,7 @@
     "id": "outlook-auto-config",
     "category": "Desktop",
     "title": "아웃룩 계정자동설정",
-    "description": "흩어진 파일을 종류별로 정리하는 데스크톱 유틸리티입니다.",
+    "description": "이메일 주소 입력만으로 Outlook 메일 계정을 자동으로 설정하는 데스크톱 프로그램입니다.",
     "tech": ["Python", "wxPython"],
     "theme": "blue",
     "screen": "desktop"
@@ -165,45 +174,18 @@
     "id": "messenger",
     "category": "Desktop",
     "title": "기업메신저",
-    "description": "작업 중 떠오르는 아이디어와 할 일을 빠르게 기록합니다.",
+    "description": "기업 내 구성원 간 실시간 메시지를 주고받을 수 있는 데스크톱 메신저 프로그램입니다.",
     "tech": ["Python", "wxPython"],
     "theme": "cream",
     "screen": "desktop"
   },
   {
-    "id": "batch",
-    "category": "Desktop",
-    "title": "이미지 변환 도구",
-    "description": "여러 이미지의 크기와 파일 형식을 한 번에 변경합니다.",
-    "tech": ["Python", "Pillow"],
-    "theme": "green",
-    "screen": "desktop"
-  },
-  {
-    "id": "api",
+    "id": "python-backend",
     "category": "Backend",
-    "title": "날씨 API",
-    "description": "날씨 데이터를 수집하고 구장별 예보를 제공하는 REST API입니다.",
-    "tech": ["Python", "FastAPI"],
+    "title": "Python Backend",
+    "description": "Flask와 FastAPI를 활용한 REST API, Push 서버 및 백엔드 서비스 개발",
+    "tech": ["Python", "Flask", "FastAPI"],
     "screen": "backend",
-    "github": null
-  },
-  {
-    "id": "crawler",
-    "category": "Backend",
-    "title": "데이터 수집기",
-    "description": "필요한 데이터를 주기적으로 수집하고 정리하는 자동화 프로젝트입니다.",
-    "tech": ["Python", "Beautiful Soup"],
-    "screen": "backend",
-    "github": null
-  },
-  {
-    "id": "service",
-    "category": "Backend",
-    "title": "업무 자동화",
-    "description": "반복되는 데이터 처리와 보고서 생성을 자동화합니다.",
-    "tech": ["Python", "Pandas"],
-    "screen": "backend",
-    "github": null
+    "github": "https://github.com/volt772/portfolio-python"
   }
 ]
