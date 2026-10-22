@@ -9,6 +9,15 @@
     "image": "/projects/groupware/cover.png"
   },
   {
+    "id": "prooya",
+    "project": "superhamster",
+    "category": "Mobile",
+    "title": "프로야구직관러(Prooya)",
+    "description": "프로야구 직관기록 관리 및 통계",
+    "tech": ["Android", "Kotlin", "XML"],
+    "image": "/projects/prooya/cover.png"
+  },
+  {
     "id": "joblog",
     "project": "112",
     "category": "Mobile",
