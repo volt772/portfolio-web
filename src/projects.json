@@ -42,7 +42,7 @@
     "title": "퇴근준비중",
     "description": "퇴근알림을 제공합니다.",
     "tech": ["Android", "Kotlin", "Compose"],
-    "image": "/projects/clock-out/cover.png"
+    "image": "/projects/clock-out/cover.webp"
   },
   {
     "id": "how-much",
