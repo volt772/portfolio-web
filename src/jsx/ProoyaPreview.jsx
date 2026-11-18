@@ -1,4 +1,4 @@
-import "./ProoyaPreview.css";
+import "../css/ProoyaPreview.css";
 
 // 원본 커버의 통계·팀기록 화면을 이미지 없이 구성한 장식용 미리보기입니다.
 function ProoyaPhone({ children, secondary = false }) {

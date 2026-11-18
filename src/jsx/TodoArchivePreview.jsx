@@ -1,4 +1,4 @@
-import "./TodoArchivePreview.css";
+import "../css/TodoArchivePreview.css";
 
 const tasks = [
   ["이불빨래", "빨래방에서~", "D Day", "today"],

@@ -1,4 +1,4 @@
-import "./MedicineSearchPreview.css";
+import "../css/MedicineSearchPreview.css";
 
 // 약 모양은 사진 대신 CSS로 단순화한 장식입니다.
 function PillPicture({ round = false, yellow = false }) {

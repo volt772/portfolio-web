@@ -1,4 +1,4 @@
-import "./SerialboxPreview.css";
+import "../css/SerialboxPreview.css";
 
 // 제품 사진 영역만 기존 커버에서 표시하고 나머지 화면은 JSX로 구성합니다.
 // 좌표는 원본 커버(1536×1024) 기준이며 이미지 파일은 수정하지 않습니다.

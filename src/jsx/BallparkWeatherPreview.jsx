@@ -1,4 +1,4 @@
-import "./LifestylePreviews.css";
+import "../css/LifestylePreviews.css";
 
 // 장식용 샘플 날씨이며 실시간 데이터를 조회하지 않습니다.
 function Cloud() {

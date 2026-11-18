@@ -1,4 +1,4 @@
-import "./RemainingMobilePreviews.css";
+import "../css/RemainingMobilePreviews.css";
 
 // 모바일 잡로그 전용 샘플입니다. Web 탭의 채용지원관리웹과는 별개입니다.
 const applications = [

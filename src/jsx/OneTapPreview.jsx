@@ -1,4 +1,4 @@
-import "./OneTapPreview.css";
+import "../css/OneTapPreview.css";
 
 // 원본의 휴대폰 캐릭터를 SVG로 단순화하여 외부 이미지 없이 표시합니다.
 function Mascot({ timing }) {

@@ -1,4 +1,4 @@
-import "./RemainingMobilePreviews.css";
+import "../css/RemainingMobilePreviews.css";
 
 const choices = ["🍽 음식", "☕ 음료", "🚌 교통", "✅ 할 일", "🎬 콘텐츠", "🏠 집에서", "📍 장소", "👔 옷차림", "🎁 선물", "🎵 음악", "📺 시청", "🧑‍🤝‍🧑 누구랑", "🧠 결정", "📅 시간대", "🔋 에너지", "🎯 운세", "🧹 청소", "🎓 과목"];
 function Choices({ items }) {

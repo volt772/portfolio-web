@@ -1,4 +1,4 @@
-import "./GroupwarePreview.css";
+import "../css/GroupwarePreview.css";
 
 // 커버 이미지 대신 두 안드로이드 화면을 JSX로 표현합니다. 내용은 장식용 샘플입니다.
 function Phone({ title, children, calendar = false }) {

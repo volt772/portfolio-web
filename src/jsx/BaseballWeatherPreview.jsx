@@ -1,4 +1,4 @@
-import "./BaseballWeatherPreview.css";
+import "../css/BaseballWeatherPreview.css";
 
 // 태양 아이콘도 외부 이미지 없이 SVG로 그립니다.
 function Sun() {

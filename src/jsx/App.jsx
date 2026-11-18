@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import "./App.css";
+import "../css/App.css";
 import DesktopPreview from "./DesktopPreview";
 import WebPreview from "./WebPreview";
 import GroupwarePreview from "./GroupwarePreview";
@@ -15,8 +15,14 @@ import BallparkWeatherPreview from "./BallparkWeatherPreview";
 import RecipeLogPreview from "./RecipeLogPreview";
 import SubscriptionJournalPreview from "./SubscriptionJournalPreview";
 import SerialboxPreview from "./SerialboxPreview";
-import projects from "./projects.json";
-import { compareProjects } from "./projectSort";
+import MedicineBoxPreview from "./MedicineBoxPreview";
+import SparkNotePreview from "./SparkNotePreview";
+import MotivationPreview from "./MotivationPreview";
+import ClockOutPreview from "./ClockOutPreview";
+import FootballWeatherPreview from "./FootballWeatherPreview";
+import HowMuchPreview from "./HowMuchPreview";
+import projects from "../projects.json";
+import { compareProjects } from "../projectSort";
 
 // 탭 표시 순서. 프로젝트 정보와 이미지 경로는 projects.json에서 관리합니다.
 const categories = ["Mobile", "Web", "Desktop", "Backend"];
@@ -24,7 +30,7 @@ const currentYear = new Date().getFullYear();
 
 // 카드 상단: 등록된 커버 이미지를 우선 사용하고, 웹과 데스크톱은 샘플 화면으로 대체합니다.
 function Preview({ project }) {
-  // 그룹웨어는 메일·캘린더 화면을 이미지 대신 JSX로 표시합니다.
+  // 모바일 앱은 카드 크기에 맞춘 정적인 JSX 화면으로 표시합니다.
   if (project.id === "groupware") return <GroupwarePreview />;
   if (project.id === "prooya") return <ProoyaPreview />;
   if (project.id === "kbo-weather") return <BaseballWeatherPreview />;
@@ -38,6 +44,12 @@ function Preview({ project }) {
   if (project.id === "receipt-log") return <RecipeLogPreview />;
   if (project.id === "subscription-journal") return <SubscriptionJournalPreview />;
   if (project.id === "serialbox") return <SerialboxPreview />;
+  if (project.id === "medicine-box") return <MedicineBoxPreview />;
+  if (project.id === "spark-note") return <SparkNotePreview />;
+  if (project.id === "motivation") return <MotivationPreview />;
+  if (project.id === "clock-out") return <ClockOutPreview />;
+  if (project.id === "football-weather") return <FootballWeatherPreview />;
+  if (project.id === "how-much") return <HowMuchPreview />;
   if (project.image)
     return (
       <div className="preview">

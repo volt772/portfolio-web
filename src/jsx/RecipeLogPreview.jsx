@@ -1,4 +1,4 @@
-import "./LifestylePreviews.css";
+import "../css/LifestylePreviews.css";
 
 // 음식 사진만 기존 커버의 해당 영역을 SVG viewBox로 표시합니다.
 // 폰 프레임, 카드, 제목과 재료는 모두 JSX이며 원본 이미지 파일은 수정하지 않습니다.

@@ -1,4 +1,4 @@
-import "./RemainingMobilePreviews.css";
+import "../css/RemainingMobilePreviews.css";
 
 const timers = [["31:45", "#859fa9"], ["37:47", "#ff7950"], ["36:49", "#ffbc19"], ["48:50", "#2bb9ed"], ["52:52", "#31b2a7"]];
 // 폰과 확대 영역이 같은 타이머 표현을 공유합니다. 실제 카운트다운은 하지 않습니다.
