@@ -5,8 +5,7 @@
     "category": "Mobile",
     "title": "그룹웨어",
     "description": "기업메일, 전자결재, 근태관리 등",
-    "tech": ["Android", "Kotlin", "XML"],
-    "image": "/projects/groupware/cover.webp"
+    "tech": ["Android", "Kotlin", "XML"]
   },
   {
     "id": "prooya",
@@ -14,8 +13,7 @@
     "category": "Mobile",
     "title": "프로야구직관러(Prooya)",
     "description": "프로야구 직관기록 관리 및 통계",
-    "tech": ["Android", "Kotlin", "XML"],
-    "image": "/projects/prooya/cover.webp"
+    "tech": ["Android", "Kotlin", "XML"]
   },
   {
     "id": "joblog",
@@ -23,8 +21,7 @@
     "category": "Mobile",
     "title": "잡로그",
     "description": "취업을 위한 모든 지원 내역을 간편하게 기록하고 관리해보세요!",
-    "tech": ["Android", "Kotlin", "Compose"],
-    "image": "/projects/joblog/cover.webp"
+    "tech": ["Android", "Kotlin", "Compose"]
   },
   {
     "id": "football-weather",
@@ -68,8 +65,7 @@
     "category": "Mobile",
     "title": "야구장날씨",
     "description": "야구장날씨 - KBO 구장 실시간 기온 확인",
-    "tech": ["Android", "Kotlin", "Compose", "React-Native"],
-    "image": "/projects/kbo-weather/cover.webp"
+    "tech": ["Android", "Kotlin", "Compose", "React-Native"]
   },
   {
     "id": "todo-archive",
@@ -77,8 +73,7 @@
     "category": "Mobile",
     "title": "아그거",
     "description": "한 번의 체크로 미래를 챙기세요. 기록 기반 체크리스트!",
-    "tech": ["Android", "Kotlin", "Compose"],
-    "image": "/projects/todo-archive/cover.webp"
+    "tech": ["Android", "Kotlin", "Compose"]
   },
   {
     "id": "serialbox",
@@ -86,8 +81,7 @@
     "category": "Mobile",
     "title": "시리얼박스",
     "description": "가전, IT기기, 장비의 시리얼 넘버를 안전하고 간편하게 기록하는 필수 도구",
-    "tech": ["Android", "Kotlin", "Compose"],
-    "image": "/projects/serialbox/cover.webp"
+    "tech": ["Android", "Kotlin", "Compose"]
   },
   {
     "id": "receipt-log",
@@ -95,8 +89,7 @@
     "category": "Mobile",
     "title": "손맛기록",
     "description": "직접 만든 요리를 사진과 함께 간단히 메모해두는 초간단 요리 기록 앱입니다.",
-    "tech": ["Android", "Kotlin", "Compose"],
-    "image": "/projects/receipt-log/cover.webp"
+    "tech": ["Android", "Kotlin", "Compose"]
   },
   {
     "id": "spark-note",
@@ -122,8 +115,7 @@
     "category": "Mobile",
     "title": "구독일기",
     "description": "매달 빠져나가는 구독비, 한눈에 확인하세요!",
-    "tech": ["Android", "Kotlin", "Compose"],
-    "image": "/projects/subscription-journal/cover.webp"
+    "tech": ["Android", "Kotlin", "Compose"]
   },
   {
     "id": "pick-for-me",
@@ -131,8 +123,7 @@
     "category": "Mobile",
     "title": "골라줘요",
     "description": "룰렛처럼 돌려서 랜덤으로 골라주는 선택 도우미 앱!",
-    "tech": ["Android", "Kotlin", "Compose"],
-    "image": "/projects/pick-for-me/cover.webp"
+    "tech": ["Android", "Kotlin", "Compose"]
   },
   {
     "id": "mlb-weather",
@@ -140,8 +131,7 @@
     "category": "Mobile",
     "title": "Ballpark Weather",
     "description": "Check the weather information of MLB baseball stadium at a glance.",
-    "tech": ["Android", "Kotlin", "Compose"],
-    "image": "/projects/mlb-weather/cover.webp"
+    "tech": ["Android", "Kotlin", "Compose"]
   },
   {
     "id": "laundry-timer",
@@ -149,8 +139,7 @@
     "category": "Mobile",
     "title": "런드리타이머",
     "description": "빨래방 세탁기·건조기 종료 시간을 편하게 관리하는 멀티 타이머 앱",
-    "tech": ["Android", "Kotlin", "Compose"],
-    "image": "/projects/laundry-timer/cover.webp"
+    "tech": ["Android", "Kotlin", "Compose"]
   },
   {
     "id": "medicine-search",
@@ -158,8 +147,7 @@
     "category": "Mobile",
     "title": "이약뭐약",
     "description": "약 이름으로 빠르게 검색하고, 정보까지 한눈에!",
-    "tech": ["Android", "Kotlin", "Compose"],
-    "image": "/projects/medicine-search/cover.webp"
+    "tech": ["Android", "Kotlin", "Compose"]
   },
   {
     "id": "one-tap",
@@ -167,8 +155,7 @@
     "category": "Mobile",
     "title": "OneTap",
     "description": "OneTap은 단 한 번의 탭으로 당신의 집중력과 반사신경을 시험하는 미니 게임입니다.",
-    "tech": ["Android", "Kotlin", "Compose"],
-    "image": "/projects/one-tap/cover.webp"
+    "tech": ["Android", "Kotlin", "Compose"]
   },
   {
     "id": "mailplug-web",

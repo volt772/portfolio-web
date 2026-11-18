@@ -2,6 +2,19 @@ import { useRef, useState } from "react";
 import "./App.css";
 import DesktopPreview from "./DesktopPreview";
 import WebPreview from "./WebPreview";
+import GroupwarePreview from "./GroupwarePreview";
+import ProoyaPreview from "./ProoyaPreview";
+import BaseballWeatherPreview from "./BaseballWeatherPreview";
+import TodoArchivePreview from "./TodoArchivePreview";
+import OneTapPreview from "./OneTapPreview";
+import MedicineSearchPreview from "./MedicineSearchPreview";
+import LaundryTimerPreview from "./LaundryTimerPreview";
+import JoblogPreview from "./JoblogPreview";
+import PickForMePreview from "./PickForMePreview";
+import BallparkWeatherPreview from "./BallparkWeatherPreview";
+import RecipeLogPreview from "./RecipeLogPreview";
+import SubscriptionJournalPreview from "./SubscriptionJournalPreview";
+import SerialboxPreview from "./SerialboxPreview";
 import projects from "./projects.json";
 import { compareProjects } from "./projectSort";
 
@@ -11,6 +24,20 @@ const currentYear = new Date().getFullYear();
 
 // 카드 상단: 등록된 커버 이미지를 우선 사용하고, 웹과 데스크톱은 샘플 화면으로 대체합니다.
 function Preview({ project }) {
+  // 그룹웨어는 메일·캘린더 화면을 이미지 대신 JSX로 표시합니다.
+  if (project.id === "groupware") return <GroupwarePreview />;
+  if (project.id === "prooya") return <ProoyaPreview />;
+  if (project.id === "kbo-weather") return <BaseballWeatherPreview />;
+  if (project.id === "todo-archive") return <TodoArchivePreview />;
+  if (project.id === "one-tap") return <OneTapPreview />;
+  if (project.id === "medicine-search") return <MedicineSearchPreview />;
+  if (project.id === "laundry-timer") return <LaundryTimerPreview />;
+  if (project.id === "joblog") return <JoblogPreview />;
+  if (project.id === "pick-for-me") return <PickForMePreview />;
+  if (project.id === "mlb-weather") return <BallparkWeatherPreview />;
+  if (project.id === "receipt-log") return <RecipeLogPreview />;
+  if (project.id === "subscription-journal") return <SubscriptionJournalPreview />;
+  if (project.id === "serialbox") return <SerialboxPreview />;
   if (project.image)
     return (
       <div className="preview">
