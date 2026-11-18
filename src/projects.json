@@ -171,6 +171,22 @@
     "image": "/projects/one-tap/cover.webp"
   },
   {
+    "id": "mailplug-web",
+    "category": "Web",
+    "title": "기업메일, 그룹웨어",
+    "description": "메일 송수신과 메일함 관리, 전자결재·일정·주소록을 제공하는 기업용 그룹웨어 서비스입니다.",
+    "tech": ["PHP", "Python", "MySQL", "PostgreSQL"],
+    "theme": "blue"
+  },
+  {
+    "id": "joblog-web",
+    "category": "Web",
+    "title": "채용지원관리웹",
+    "description": "기업별 지원 내역과 접수일, 전형 진행 상태를 기록하고 조건별 필터로 지원 현황을 확인하는 웹서비스입니다.",
+    "tech": ["React", "FastAPI", "PostgreSQL"],
+    "theme": "cream"
+  },
+  {
     "id": "outlook-auto-config",
     "category": "Desktop",
     "title": "아웃룩 계정자동설정",

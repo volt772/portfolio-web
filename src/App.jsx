@@ -1,14 +1,15 @@
 import { useRef, useState } from "react";
 import "./App.css";
 import DesktopPreview from "./DesktopPreview";
+import WebPreview from "./WebPreview";
 import projects from "./projects.json";
 import { compareProjects } from "./projectSort";
 
 // 탭 표시 순서. 프로젝트 정보와 이미지 경로는 projects.json에서 관리합니다.
-const categories = ["Mobile", "Desktop", "Backend"];
+const categories = ["Mobile", "Web", "Desktop", "Backend"];
 const currentYear = new Date().getFullYear();
 
-// 카드 상단: 등록된 커버 이미지를 우선 사용하고, 데스크톱은 샘플 화면으로 대체합니다.
+// 카드 상단: 등록된 커버 이미지를 우선 사용하고, 웹과 데스크톱은 샘플 화면으로 대체합니다.
 function Preview({ project }) {
   if (project.image)
     return (
@@ -20,6 +21,9 @@ function Preview({ project }) {
         />
       </div>
     );
+  if (project.category === "Web") {
+    return <WebPreview project={project} />;
+  }
   if (project.category === "Desktop") {
     return <DesktopPreview project={project} />;
   }
