@@ -162,7 +162,7 @@
   {
     "id": "joblog-web",
     "category": "Web",
-    "title": "채용지원관리웹",
+    "title": "입사지원관리 및 통계시스템",
     "description": "기업별 지원 내역과 접수일, 전형 진행 상태를 기록하고 조건별 필터로 지원 현황을 확인하는 웹서비스입니다.",
     "tech": ["React", "FastAPI", "PostgreSQL"],
     "theme": "cream"
@@ -170,7 +170,7 @@
   {
     "id": "academic-system",
     "category": "Web",
-    "title": "대학교 종합정보시스템 유지보수",
+    "title": "대학교 종합정보시스템",
     "description": "학생과 교직원의 학사·수업·성적 등 행정 업무를 지원하는 종합정보시스템의 데이터 조회·입력 기능을 유지보수했습니다.",
     "tech": ["Nexacro", "Oracle", "MyBatis", "SpringBoot"],
     "theme": "academic-theme"
