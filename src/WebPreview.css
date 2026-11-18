@@ -21,3 +21,25 @@
 /* 채용 진행 상태 배지 */
 .web-job-status.in-progress { background: #b8d9f4; color: #285b85; }
 .web-job-status.accepted { background: #bfdfc7; color: #306442; }
+
+/* 개인정보 없이 재구성한 학사행정 화면 */
+.academic-theme { background: #e8eaf2; }
+.academic-demo { height: 213px; background: #f2f3f5; color: #5b6470; font-size: 6px; overflow: hidden; }
+.academic-top { display: flex; justify-content: space-between; align-items: center; background: #303845; color: white; height: 23px; }
+.academic-top>b { padding: 8px; background: #35477e; font-size: 8px; }
+.academic-top>span { padding-right: 8px; color: #c6ccd7; font-size: 5px; }
+.academic-layout { display: grid; grid-template-columns: 70px minmax(0, 1fr); height: 190px; }
+.academic-menu { display: flex; flex-direction: column; gap: 10px; padding: 9px 6px; background: #3e465a; color: #eef0f5; }
+.academic-search { padding: 5px 3px; background: #303747; border-radius: 4px; font-size: 5px; color: #c3cad7; }
+.academic-submenu { display: flex; flex-direction: column; gap: 7px; background: #f0f1f5; color: #6a7180; border-radius: 3px; padding: 7px 5px; }
+.academic-submenu>b { color: #414d6b; }.academic-submenu>span { font-size: 5px; }
+.academic-workspace { min-width: 0; padding: 7px; }
+.academic-title { display: flex; justify-content: space-between; padding: 6px; background: #414b5b; color: white; }
+.academic-content { padding: 6px; background: white; border: 1px solid #d7dbe3; }
+.academic-query { display: flex; align-items: center; gap: 5px; padding: 4px; background: #eef0f4; font-size: 5px; white-space: nowrap; }
+.academic-query b { display: inline-block; padding: 3px; background: white; border: 1px solid #dde1e7; font-weight: 400; }
+.academic-query em { margin-left: auto; background: #435b83; color: white; padding: 3px 5px; border-radius: 2px; font-style: normal; }
+.academic-section { display: flex; justify-content: space-between; align-items: center; margin: 7px 0 4px; font-size: 5px; }.academic-section>span { color: #7d8baf; }
+.academic-grid { height: 64px; border: 1px solid #e0e3e9; }.academic-grid table { width: 100%; border-collapse: collapse; font-size: 5px; table-layout: fixed; }.academic-grid th,.academic-grid td { padding: 3px 1px; text-align: center; border: 1px solid #e4e6ec; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }.academic-grid th { background: #f0f1f4; font-weight: 500; }.academic-grid th:nth-child(2) { width: 39%; }.academic-grid tbody tr:first-child { background: #e5e7f7; color: #5366a4; }
+.academic-details { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; border: 1px solid #dce1e9; padding: 5px; font-size: 5px; }.academic-details>span { display: flex; align-items: center; gap: 3px; white-space: nowrap; }.academic-details b { flex: 1; min-width: 0; min-height: 10px; padding: 2px; border: 1px solid #e1e4e9; font-weight: 400; overflow: hidden; text-overflow: ellipsis; }.academic-note { grid-column: 1 / -1; }
+@media (min-width: 681px) and (max-width: 1000px) { .academic-layout { grid-template-columns: 55px minmax(0, 1fr); }.academic-workspace { padding: 4px; }.academic-content { padding: 4px; }.academic-query { gap: 2px; }.academic-top>b { font-size: 7px; } }

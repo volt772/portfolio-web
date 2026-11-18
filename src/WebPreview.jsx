@@ -1,4 +1,5 @@
 import "./WebPreview.css";
+import AcademicPreview from "./AcademicPreview";
 
 // 첨부 화면의 구조를 단순화한 장식용 미리보기입니다. 실제 메일/지원 데이터가 아닙니다.
 function MailPreview() {
@@ -130,7 +131,10 @@ export default function WebPreview({ project }) {
           <div>{project.title}</div>
           <span>＋</span>
         </div>
-        {project.id === "mailplug-web" ? <MailPreview /> : <JoblogPreview />}
+        {project.id === "mailplug-web" ? <MailPreview />
+          : project.id === "joblog-web" ? <JoblogPreview />
+          : project.id === "academic-system" ? <AcademicPreview />
+          : null}
       </div>
     </div>
   );

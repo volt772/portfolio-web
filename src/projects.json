@@ -187,6 +187,14 @@
     "theme": "cream"
   },
   {
+    "id": "academic-system",
+    "category": "Web",
+    "title": "대학교 종합정보시스템 유지보수",
+    "description": "학생과 교직원의 학사·수업·성적 등 행정 업무를 지원하는 종합정보시스템의 데이터 조회·입력 기능을 유지보수했습니다.",
+    "tech": ["Nexacro", "Oracle", "MyBatis", "SpringBoot"],
+    "theme": "academic-theme"
+  },
+  {
     "id": "outlook-auto-config",
     "category": "Desktop",
     "title": "아웃룩 계정자동설정",
