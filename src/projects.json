@@ -4,7 +4,7 @@
     "project": "ZZZ",
     "category": "Mobile",
     "title": "그룹웨어",
-    "description": "기업메일과 SMS로 소통하고, 전자결재·게시판·캘린더로 업무와 일정을 관리하는 모바일 그룹웨어 앱입니다.",
+    "description": "기업메일·SMS·전자결재·게시판·캘린더",
     "tech": ["Android", "Kotlin", "XML"]
   },
   {
