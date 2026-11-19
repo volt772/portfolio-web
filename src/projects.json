@@ -8,6 +8,22 @@
     "tech": ["Android", "Kotlin", "XML"]
   },
   {
+    "id": "attendance",
+    "project": "ZZY",
+    "category": "Mobile",
+    "title": "근태관리",
+    "description": "출퇴근 시간을 기록하고 일별 근무 내역과 근태 현황을 확인하는 앱입니다.",
+    "tech": ["Android", "Kotlin", "XML", "RestAPI"]
+  },
+  {
+    "id": "todo-list",
+    "project": "ZZX",
+    "category": "Mobile",
+    "title": "TODO리스트",
+    "description": "할 일을 등록하고 완료 여부를 체크하며 일상의 작업을 관리하는 TODO리스트 앱입니다.",
+    "tech": ["Android", "Kotlin", "XML", "RestAPI"]
+  },
+  {
     "id": "prooya",
     "project": "superhamster",
     "category": "Mobile",

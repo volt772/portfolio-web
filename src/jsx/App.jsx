@@ -21,6 +21,8 @@ import MotivationPreview from "./MotivationPreview";
 import ClockOutPreview from "./ClockOutPreview";
 import FootballWeatherPreview from "./FootballWeatherPreview";
 import HowMuchPreview from "./HowMuchPreview";
+import AttendancePreview from "./AttendancePreview";
+import TodoListPreview from "./TodoListPreview";
 import projects from "../projects.json";
 import { compareProjects } from "../projectSort";
 
@@ -30,6 +32,8 @@ const currentYear = new Date().getFullYear();
 
 // 카드 상단: 등록된 커버 이미지를 우선 사용하고, 웹과 데스크톱은 샘플 화면으로 대체합니다.
 function Preview({ project }) {
+  if (project.id === "attendance") return <AttendancePreview />;
+  if (project.id === "todo-list") return <TodoListPreview />;
   // 모바일 앱은 카드 크기에 맞춘 정적인 JSX 화면으로 표시합니다.
   if (project.id === "groupware") return <GroupwarePreview />;
   if (project.id === "prooya") return <ProoyaPreview />;
